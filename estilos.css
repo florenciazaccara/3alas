@@ -1,0 +1,111 @@
+:root{
+	--negro: #29272a;
+	--naranja: #f69c21;
+	--blanco: #FFFFFF;
+	--naranja2: #ff6f12;
+	--negrohover: black;
+}
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	align-items: center;
+}
+
+
+
+body{
+	background-color: var(--negro);
+	background-image: url("images/pattern.jpg");
+	font-family: arial, sand-serif;
+	
+}
+
+.cabecera{
+	
+	display: flex;
+	justify-content: space-between;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16px;
+	margin-bottom: 24px;
+	}
+	
+h1{
+		color: var(--naranja);
+	}
+	
+.contenedor{
+	background-color: var(--blanco);
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.botonera{
+	background-color: var(--naranja2);
+	height: 57px;
+
+	
+	
+}
+
+.botonera-lista{
+	display: flex;
+	/*padding-left: 54px;*/
+	margin-left: 54px;
+	margin-right: 337px;
+	justify-content: space-around;
+	list-style: none;
+	text-decoration: none;
+	padding-top: 20px;
+	
+	
+	
+	
+
+	
+	
+}
+
+.botonera li{
+	flex-grow: 1;
+	
+	
+}
+
+
+.botonera-lista a{
+	text-decoration: none;
+	font-size: 14px;
+	color: var(--blanco);
+	font-weight: bold;
+
+	border-right: 1px solid var(--blanco);
+	display: block;
+
+	text-align: center;
+	
+
+	
+	
+	
+	
+	
+	
+}
+
+.botonera a:hover{
+	color: var(--black);
+	
+	
+}
+
+a.sin-borde{
+	border-right: none;
+}
